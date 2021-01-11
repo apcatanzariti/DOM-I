@@ -87,12 +87,7 @@ paragraphsArray[6].textContent = '1 (888) 888-8888';
 paragraphsArray[7].textContent = 'sales@greatidea.io';
 paragraphsArray[8].textContent = 'Copyright Great Idea! 2018';
 
-navsArray[0].style.color = 'green';
-navsArray[1].style.color = 'green';
-navsArray[2].style.color = 'green';
-navsArray[3].style.color = 'green';
-navsArray[4].style.color = 'green';
-navsArray[5].style.color = 'green';
+navsArray.forEach(nav => { nav.style.color = 'green' });
 
 const homeNav = document.createElement('a');
 homeNav.href = '#';
